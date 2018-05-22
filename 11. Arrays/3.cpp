@@ -21,7 +21,7 @@ int main() {
 			{
 				printf("Enter 34, 45, 56, 67 or 89 only.\n");
 			}
-			//Checks if number is already entered. Asks for a different one.
+			//Checks if number is already entered. Asks for a different one if it is.
 			for (k = 0; k < i; k++)
 			{
 				if (num[k]==num[i])
@@ -38,7 +38,7 @@ int main() {
 						}
 					} while (n == num[i]);
 					num[i] = n;
-					k = -1;
+					k = -1; //ensure the check is ran properly after loop is broken.
 				}
 			}
 		} while (num[i] != 34 && num[i] != 45 && num[i] != 56 && num[i] != 67 && num[i] != 89);
