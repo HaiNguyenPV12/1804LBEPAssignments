@@ -30,7 +30,7 @@ int main() {
 void vow_con(char *start, char *finish, int *vow, int *con)
 {
 	char *current;
-	for (current = start; current < finish; current++) //"start + 1" because we did loop 1 with previous line.
+	for (current = start; current < finish; current++)
 	{
 		if (*current == 'a' || *current == 'e' || *current == 'i' || *current == 'o' || *current == 'u' || *current == 'A' || *current == 'E' || *current == 'I' || *current == 'O' || *current == 'U')
 		{*vow = *vow + 1;}
