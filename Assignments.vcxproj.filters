@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="14. Pointers (Lab)\2 Lab.cpp">
+    <ClCompile Include="15. Functions (Lab)\1 Lab.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
