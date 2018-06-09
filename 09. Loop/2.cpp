@@ -7,8 +7,13 @@ int main() {
 	scanf("%d", &num1);
 	printf("Enter 2nd number: ");
 	scanf("%d", &num2);
-	if (num1 % 2 != 0) { sum = sum + num1; }
-	if (num2 % 2 != 0) { sum = sum + num2; }
+	for (int i = num1; i <= num2; i++)
+	{
+		if (i % 2 != 0)
+		{
+			sum = sum + i;
+		}
+	}
 	printf("Sum of all odd numbers:	%d", sum);
 
 	fseek(stdin, 0, SEEK_END); //flush
